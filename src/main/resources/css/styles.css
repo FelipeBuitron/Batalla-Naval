@@ -1,0 +1,19 @@
+.fondo {
+    -fx-background-image: url("/img/fondo.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.fondo2 {
+    -fx-background-image: url("/img/fondo2.PNG");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.casilla-tablero {
+    -fx-padding: 0;
+    -fx-background-color: rgba(255,255,255,0.35);
+    -fx-border-color: rgba(120,120,120,0.6);
+}
