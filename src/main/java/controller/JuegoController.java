@@ -384,7 +384,7 @@ public class JuegoController {
     /**
      * Genera un icono genérico ajustado a partir del nombre del archivo en el directorio de imágenes.
      *
-     * @param nombreImagen Nombre del archivo de imagen (ej. "agua.png").
+     * @param nombreImagen Nombre del archivo de imagen
      * @return Objeto {@link ImageView} configurado.
      */
     private ImageView crearIcono(String nombreImagen) {
