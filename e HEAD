@@ -1,0 +1,48 @@
+ src/main/java/app/Main.java                        |  22 [32m++[m
+ .../java/controller/ColocarBarcosController.java   | 224 [32m+++++++++++++++++++++[m
+ src/main/java/controller/InicioController.java     |  40 [32m++++[m
+ .../java/controller/InstruccionesController.java   |   4 [32m+[m
+ src/main/java/controller/JuegoController.java      |  36 [32m++++[m
+ src/main/java/model/Barco.java                     |  47 [32m+++++[m
+ src/main/java/model/Casilla.java                   |  52 [32m+++++[m
+ src/main/java/model/EstadoCasilla.java             |   9 [32m+[m
+ src/main/java/model/Juego.java                     |  24 [32m+++[m
+ src/main/java/model/Jugador.java                   |  39 [32m++++[m
+ src/main/java/model/Maquina.java                   |   8 [32m+[m
+ src/main/java/model/Orientacion.java               |   5 [32m+[m
+ src/main/java/model/Tablero.java                   |  65 [32m++++++[m
+ src/main/java/model/TipoBarco.java                 |   8 [32m+[m
+ src/main/java/org/example/Main.java                |  14 [31m--[m
+ .../org/example/controlador/JuegoControlador.java  |   9 [31m-[m
+ .../excepciones/PosicionInvalidaException.java     |   7 [31m-[m
+ src/main/java/org/example/modelo/Barco.java        |  29 [31m---[m
+ src/main/java/org/example/modelo/Casilla.java      |  33 [31m---[m
+ src/main/java/org/example/modelo/Tablero.java      |  54 [31m-----[m
+ src/main/resources/Img/fondo.png                   |   0
+ src/main/resources/Img/fondo2.png                  |   0
+ src/main/resources/barcos/destructor_h_fin.png     |   0
+ src/main/resources/barcos/destructor_h_inicio.png  |   0
+ src/main/resources/barcos/destructor_v_fin.png     |   0
+ src/main/resources/barcos/destructor_v_inicio.png  |   0
+ src/main/resources/barcos/fragata_h.png            |   0
+ src/main/resources/barcos/fragata_v.png            |   0
+ .../resources/barcos/portaaviones_h_centro1.png    |   0
+ .../resources/barcos/portaaviones_h_centro2.png    |   0
+ src/main/resources/barcos/portaaviones_h_fin.png   |   0
+ .../resources/barcos/portaaviones_h_inicio.png     |   0
+ .../resources/barcos/portaaviones_v_centro1.png    |   0
+ .../resources/barcos/portaaviones_v_centro2.png    |   0
+ src/main/resources/barcos/portaaviones_v_fin.png   |   0
+ .../resources/barcos/portaaviones_v_inicio.png     |   0
+ src/main/resources/barcos/submarino_h_centro.png   |   0
+ src/main/resources/barcos/submarino_h_fin.png      |   0
+ src/main/resources/barcos/submarino_h_inicio.png   |   0
+ src/main/resources/barcos/submarino_v_centro.png   |   0
+ src/main/resources/barcos/submarino_v_fin.png      |   0
+ src/main/resources/barcos/submarino_v_inicio.png   |   0
+ src/main/resources/css/styles.css                  |   0
+ src/main/resources/view/ColocarBarcosView.fxml     |  64 [32m++++++[m
+ src/main/resources/view/InicioView.fxml            |  43 [32m++++[m
+ src/main/resources/view/InstruccionesView.fxml     |  28 [32m+++[m
+ src/main/resources/view/JuegoView.fxml             |  27 [32m+++[m
+ 47 files changed, 745 insertions(+), 146 deletions(-)
